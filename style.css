@@ -1,0 +1,90 @@
+/**
+*
+*@arthurrls
+*
+*/
+
+body, html{
+    font-family: Helvetica;
+}
+
+h2{
+    color: black;
+    font-size: 1.5em;
+    text-align: justify;
+    width: 600px;
+    font-weight: 700;
+}
+
+p{
+    color: rgb(59, 59, 59);
+    margin-top: 20px;
+    font-size: 1em;
+    text-align: justify;
+    width: 600px;
+    font-weight: 700;
+}
+
+/* barra de navegação
+--------------------------*/
+nav{
+    border-bottom: 1px solid black;
+}
+
+
+.navbar-nav .nav-link{
+    color: black;
+    font-size: 16px;
+    font-weight: 600;
+}
+
+.navbar-color{
+    background-color: white;
+}
+
+/* home
+--------------------------*/
+.links{
+    margin: 30px 0;
+    padding-left: 120px;
+    padding-top: 50px;
+    display: flex;
+    gap: 30px;
+}
+
+.links a{
+    color: black;
+    font-size: 0.8em;
+}
+
+.links a:hover{
+    color: #9bf0e1;
+    text-decoration: none;
+}
+
+.links .active{
+    color: #ff764d;
+}
+
+.texto-titulo{
+    margin-top: 90px;
+    display: flexbox;
+}
+
+.fundo-amarelo{
+    background-color: #FBFFA8;
+    padding: 300px 500px;
+}
+
+.fundo-branco{
+    background-color: white;
+}
+
+.img-fluid-custom {
+    width: 100%;
+    height: auto;
+    object-fit: cover;
+}
+
+
+
