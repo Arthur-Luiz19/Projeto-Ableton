@@ -16,6 +16,21 @@ h2{
     font-weight: 700;
 }
 
+h3{
+    color: black;
+    font-size: 1.2em;
+    text-align: justify;
+    padding-top: 90px;
+    width: 300px;
+    font-weight: 700;
+    letter-spacing: 1px;
+}
+
+h5{
+    font-weight: 700;
+    font-size: 0.9em;
+}
+
 p{
     color: rgb(59, 59, 59);
     margin-top: 20px;
@@ -73,7 +88,8 @@ nav{
 
 .fundo-amarelo{
     background-color: #FBFFA8;
-    padding: 300px 500px;
+    padding: 300px 0;
+    padding-left: 800px;
 }
 
 .fundo-branco{
@@ -86,5 +102,56 @@ nav{
     object-fit: cover;
 }
 
+.fundo-verde{
+    background-color: #B7FEC0;
+    padding: 90px 200px 90px 50px;
+}
+
+.fundo-roxo{
+    background-color: #D6B3FE;
+    position: absolute;
+    left: 170px;
+    top: -150px;
+    width: 800px;
+    height: 600px;
+    z-index: -1;
+}
+
+.fundo-azul{
+    background-color: #B1C6FE;
+    width: 100px;
+    height: 400px;
+}
+
+.mensager a{
+    font-weight: 700;
+    padding-top: 50px;
+    font-size: 1.4em;
+}
+
+footer{
+    height: 400px;
+    position: relative;
+    margin: 200px 0;
+}
+
+footer ul{
+    list-style: none;
+}
+
+footer h1{
+    margin: 50px 0;
+}
+
+footer .navbar-nav a{
+    font-size: 0.8em;
+    color: black;
+}
+
+footer p{
+    font-size: 0.8em;
+    color: black;
+    margin: 0;
+}
 
 
