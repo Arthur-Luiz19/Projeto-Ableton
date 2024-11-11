@@ -119,7 +119,7 @@ nav{
 
 .fundo-azul{
     background-color: #B1C6FE;
-    width: 100px;
+    width: 100%;
     height: 400px;
 }
 
@@ -129,6 +129,8 @@ nav{
     font-size: 1.4em;
 }
 
+/* footer
+--------------------------*/
 footer{
     height: 400px;
     position: relative;
@@ -152,6 +154,52 @@ footer p{
     font-size: 0.8em;
     color: black;
     margin: 0;
+}
+
+@media (max-width: 768px){
+    
+    h2{
+        font-size: 0.5em;
+    }
+    h3{
+        font-size: 1.2em;
+    }
+
+    p{
+        font-size: 0.8em;
+    }
+    
+    footer p{
+        width: 100%;
+    }
+}
+
+@media (max-width: 992px){
+
+    h2{
+        font-size: 1.3em;
+    }
+    h3{
+        font-size: 1.1em;
+        width: 70%;
+    }
+
+    footer p{
+        width: 100%;
+    }
+}
+
+@media (min-width: 1200px){
+    h2{
+        font-size: 1.5em;
+    }
+    h3{
+        font-size: 1.2em;
+    }
+
+    footer p{
+        width: 100%;
+    }
 }
 
 
