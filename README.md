@@ -1,3 +1,4 @@
+
 # Ableton Project
 
 ## Overview
@@ -21,7 +22,4 @@ Users should be able to:
 - Flexbox
 - CSS Grid
 - Bootstrap 4
-  
-```
-
 
